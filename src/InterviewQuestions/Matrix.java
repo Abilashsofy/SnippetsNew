@@ -11,7 +11,7 @@ public class Matrix {
 		int m,n,c,d;
 
 		Scanner in = new Scanner(System.in);
-		System.out.println("Enter No. of rows and columns");
+		System.out.println("Enter No. of rows and columns:");
 		m=in.nextInt();
 		n=in.nextInt();
 
