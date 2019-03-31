@@ -20,7 +20,7 @@ public class RepeatNon {
 		{
 			if(hm.containsKey(c))
 			{
-				hm.put(c,hm.get(c)+1);
+				hm.put(c,hm.get(c)+1);//get(c) will get key value
 			}
 			else
 			{
@@ -33,7 +33,7 @@ public class RepeatNon {
 		{
 			if(hm.get(c)>1)
 			{
-				System.out.println("Repeated Character(s): "+c);
+				System.out.println(c + " is repeacted for: "+hm.get(c)+ " times");
 			}
 			else
 			{

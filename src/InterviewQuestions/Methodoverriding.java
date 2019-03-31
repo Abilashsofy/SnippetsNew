@@ -11,6 +11,8 @@ public class Methodoverriding extends overridin {
 	{
 		overridin o = new Methodoverriding();
 		o.override();
+		overridin o2=new overridin();
+		o2.override();
 	}
 
 }

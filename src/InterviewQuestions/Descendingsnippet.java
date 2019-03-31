@@ -6,14 +6,16 @@ public class Descendingsnippet {
 
 	public static void main(String args[])
 	{
-		int a[]={44,66,99,115,33,22,55};
+		int a[]={99,66,10,115,33,22,55};
 
 
 		for (int i = 0; i < a.length; i++)   
 		{  
 			for (int j = i + 1; j < a.length; j++)   
 			{  
-				if (a[i] > a[j])   
+				if (a[i] < a[j])   
+				//< - less than ->Descending and finds smallest and vice versa. in each iteration, 
+					//large no. will be moved to forward
 				{  
 					temp = a[i];  
 					a[i] = a[j];  
@@ -21,11 +23,12 @@ public class Descendingsnippet {
 				}  
 			}  
 		}
-		System.out.println("The largest no. is:" + temp);
+		System.out.println(a.length);
+		System.out.println("The largest/smallest no. is:" + temp);
 		
 		for(int i=0;i<a.length;i++)
 		{
-			System.out.print(a[i] + " ");
+			System.out.print("Ascending/Descending order is: "+ a[i] + " ");
 		}
 
 	}

@@ -15,6 +15,8 @@ public class Hasmapcls {
 		hmap.put(2,"Sofy");
 		hmap.put(3,"Aadvik");
 		
+		System.out.println(hmap);
+		
 		Set hset=hmap.entrySet();
 		
 		Iterator it = hset.iterator();
