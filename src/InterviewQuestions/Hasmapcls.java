@@ -22,6 +22,8 @@ public class Hasmapcls {
 		while(it.hasNext())
 		{
 			Map.Entry mentry = (Map.Entry)it.next();
+			//Map.Entry is an interface. Access entry in the map 
+			//and manipulate them
 			System.out.println("The key is" + mentry.getKey());
 			System.out.println("The Value is" + mentry.getValue());
 			
