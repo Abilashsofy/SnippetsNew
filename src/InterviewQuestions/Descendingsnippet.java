@@ -13,7 +13,9 @@ public class Descendingsnippet {
 		{  
 			for (int j = i + 1; j < a.length; j++)   
 			{  
-				if (a[i] < a[j])   //< - less than ->Descending and finds smallest and vice versa
+				if (a[i] < a[j])   
+				//< - less than ->Descending and finds smallest and vice versa. in each iteration, 
+					//large no. will be moved to forward
 				{  
 					temp = a[i];  
 					a[i] = a[j];  
