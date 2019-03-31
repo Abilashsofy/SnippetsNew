@@ -9,12 +9,12 @@ public class splitchars {
 		
 		String lower = "",upper = "",number="";
 		
-		for(int i=0;i<=input.length()-1;i++)
+		for(int i=1;i<input.length();i++)
 		{
 			char c = input.charAt(i);
 			if(Character.isUpperCase(c))
 			{
-				upper+=c;
+				upper=upper+c;
 			}
 			if(Character.isLowerCase(c))
 			{

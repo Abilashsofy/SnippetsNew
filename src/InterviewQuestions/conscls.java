@@ -2,7 +2,7 @@ package InterviewQuestions;
 
 public class conscls {
 	
-	conscls()
+	public conscls()
 	{
 		System.out.println("Constructor with out parameter");
 	}
