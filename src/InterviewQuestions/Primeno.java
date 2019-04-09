@@ -4,12 +4,13 @@ public class Primeno {
 
 	public static void main(String args[])
 	{
+		//prime no. is a whole no. which is greater than 1 and divisible only by 1 and  itself
 		int i =0;
 		int num =0;
 		//Empty String
 		String  primeNumbers = "";
 
-		for (i = 1; i <= 100; i++)         
+		for (i = 2; i <= 100; i++)         
 		{ 		  	  
 			int counter=0; 	  
 			for(num =i; num>=1; num--)
