@@ -41,7 +41,7 @@ public class Matrix {
 
 		System.out.println("Sun of matrices");
 
-		for(c=0;c<=m;c++)
+		for(c=0;c<m;c++)
 		{
 			for(d=0;d<n;d++)
 			{

@@ -8,7 +8,7 @@ public class Pattern {
 		{
 			for (j = 1; j < i + 1; j++)//printing values
 			{
-				System.out.print(i + " ");//Manipulate here for desired results. k++ is diff from k+2. 
+				System.out.print(j + " ");//Manipulate here for desired results. k++ is diff from k+2. 
 				//we can give *, k+2, i instead of k++ to print results accordingly
 			}
 
