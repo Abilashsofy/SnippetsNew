@@ -6,6 +6,8 @@ public class insertelt {
 
 		String input[]= {"A","B","D","E","F"};
 		String insert[]=new String[input.length+1];
+		String remove[]=new String[input.length-1];
+		int count=0;
 
 		//Inserting element at 3rd place
 
@@ -26,8 +28,33 @@ public class insertelt {
 				insert[i]=input[i];
 		}
 
+		System.out.println("Inserted C in Input array");
+		
 		for (String insertele : insert) {
-			System.out.println(insertele + " ");
+			System.out.print(insertele + " ");
+			
+		}
+		System.out.println();
+		System.out.println("-------------------------------------");
+		System.out.println("Removed D from Input");
+		for(int i=0;i<remove.length;i++)
+		{
+			if(input[i].equalsIgnoreCase("D"))
+			{
+				remove[i]=input[i+1];
+				count++;
+			}
+			else
+			{
+				if(count==0)
+				remove[i]=input[i];
+				else
+					remove[i]=input[i+1];
+			}
+			
+		}
+		for (String removeelt : remove) {
+			System.out.print(removeelt + " ");
 		}
 
 	}
