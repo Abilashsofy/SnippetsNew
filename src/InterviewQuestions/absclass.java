@@ -12,7 +12,7 @@ public class absclass extends absdefcls {
 	
 	public static void main(String args[])
 	{
-		absdefcls ab = new absclass();
+		absdefcls ab = new absclass();// Referring child class to base class object			
 		ab.implement();
 	}
 }

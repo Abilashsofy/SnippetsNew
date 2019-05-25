@@ -15,13 +15,17 @@ public class Methodoverloading {
 	{
 		System.out.println("Overloading a Method with two parameter with name overload "+a+ b +" is passed");
 	}
-	
+	void overload(double a, double b)
+	{
+		System.out.println("Overloading a Method with two parameter with name overload "+a+ b +" is passed");
+	}
 	
 	public static void main(String args[])
 	{
 		Methodoverloading mo = new Methodoverloading();
 		mo.overload(10);
 		mo.overload(20, "Abilash");
+		mo.overload(10, 20);
 		mo.overload(10, 20);
 	}
 

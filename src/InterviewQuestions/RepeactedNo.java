@@ -23,8 +23,10 @@ public class RepeactedNo {
         {
             // If element is already in hash set, update min
             if (set.contains(arr[i]))
+            {
                 min = i;
- 
+            System.out.println(min);
+            }
             else   // Else add element to hash set
                 set.add(arr[i]);
         }

@@ -28,7 +28,7 @@ public class Descendingsnippet {
 		
 		for(int i=0;i<a.length;i++)
 		{
-			System.out.print("Ascending/Descending order is: "+ a[i] + " ");
+			System.out.println("Ascending/Descending order is: "+ a[i] + " ");
 		}
 
 	}
